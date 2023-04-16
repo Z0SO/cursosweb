@@ -1,0 +1,36 @@
+*{
+    font-weight: 100px;
+    margin: 0;
+    padding: 0;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #99f;
+}
+/* se quita el responsive menu para cuando la pagina se achique */
+.nav__responsive-ul{
+    display: none;
+}
+
+
+
+/* caja contenedora de todo el menu */
+.nav{
+    background-color: salmon;
+}
+
+
+
+.nav__li{
+    display: inline-block;
+}
+
+
+/* editar el texto de las cajas */
+.nav__a-text{   
+
+    color: black;
+    text-decoration: none;
+}
