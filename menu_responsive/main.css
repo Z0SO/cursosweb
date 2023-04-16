@@ -1,36 +1,41 @@
-*{
-    font-weight: 100px;
+* {
+    font-weight: 100;
     margin: 0;
     padding: 0;
-
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     background-color: #99f;
 }
-/* se quita el responsive menu para cuando la pagina se achique */
-.nav__responsive-ul{
+
+.nav__responsive-ul {
     display: none;
 }
 
-
-
-/* caja contenedora de todo el menu */
-.nav{
-    background-color: salmon;
+.nav {
+    background-color: #ff968a;
 }
 
-
-
-.nav__li{
+.nav__li {
     display: inline-block;
+    padding: 12px;
 }
 
-
-/* editar el texto de las cajas */
-.nav__a-text{   
-
-    color: black;
+.nav__a-text {   
+    color: #640c0c;
+    font-size: large;
     text-decoration: none;
+    font-weight: 800;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nav__a-text:hover {
+    border-radius: 4px;
+    border: 3px solid #640c0c;
+    color: wheat;
+    background-color: #640c0c;
+    padding: 4px;
+    transition: all 0.2s;
 }
